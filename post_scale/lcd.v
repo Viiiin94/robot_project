@@ -6,7 +6,7 @@
 // ============================================================================
 module ili9341_spi_robot_face (
     input  wire clk,          // 100MHz
-    input  wire btnC,         // Reset
+    input  wire reset_p,         // Reset
     input  wire rx,           // UART RX (460,800 baud)
     output reg  lcd_reset,    
     output reg  lcd_cs,       
@@ -45,7 +45,7 @@ module ili9341_spi_robot_face (
     uart_rx_high_speed #(.BAUD(460800)) uart_inst (.clk(clk), .rx(rx), .data(rx_data), .ready(rx_ready));
 
     always @(posedge clk) begin
-        if (btnC) begin
+        if (reset_p) begin
             state <= S_RESET; 
             lcd_reset <= 0; lcd_cs <= 1; lcd_sclk <= 0;
             delay_cnt <= 0; pixel_cnt <= 0; pixel_byte_toggle <= 0;
