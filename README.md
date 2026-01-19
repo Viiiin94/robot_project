@@ -115,7 +115,7 @@ Frame Buffer 기반 LCD 구조 및 데이터 무결성 검증 로직을 추가�
 # 1. System Architecture
 
 ## Block Diagram
-
+```
             ┌────────────────────────┐
             │        dog_top          │
             │  (Top-Level Wiring)     │
@@ -133,7 +133,7 @@ Frame Buffer 기반 LCD 구조 및 데이터 무결성 검증 로직을 추가�
 │ DC Motor   │ │ Servo Motor   │ │ LCD Panel     │
 │ Controller │ │ SG90 PWM Ctrl │ │ (Robot Face)  │
 └────────────┘ └───────────────┘ └───────────────┘
-
+```
 ---
 
 # 2. Directory Structure
