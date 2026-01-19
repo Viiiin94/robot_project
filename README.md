@@ -8,9 +8,9 @@ UART 통신을 통해 외부 입력을 수신하고, 이를 기반으로
 
 ### 🏄‍♂️ 팀원 소개
 
-![Block Diagram](pic/Screenshot from 2026-01-19 10-22-34.png)
+![Block Diagram](pic/team1.png)
 
-![Block Diagram](pic/Screenshot from 2026-01-19 10-22-38.png)
+![Block Diagram](pic/team2.png)
 
 ---
 
