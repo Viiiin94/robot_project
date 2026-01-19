@@ -6,6 +6,12 @@
 UART 통신을 통해 외부 입력을 수신하고, 이를 기반으로  
 로봇의 동작 제어 및 상태 표현(UI)을 실시간으로 수행하는 것을 목표로 한다.
 
+### 🏄‍♂️ 팀원 소개
+
+![Block Diagram](pic/Screenshot from 2026-01-19 10-22-34.png)
+
+![Block Diagram](pic/Screenshot from 2026-01-19 10-22-38.png)
+
 ---
 
 ## 1. Project Goals
