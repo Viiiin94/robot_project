@@ -7,11 +7,19 @@
 UART 통신을 통해 패킷을 송신하고 FPGA를 통해 UART 수신하여, 이를 기반으로  
 로봇의 동작 제어 및 상태 표현(UI)을 실시간으로 수행하는 것을 목표로 한다.
 
-### 🏄‍♂️ 팀원 소개
+## 🏄‍♂️ 팀원 소개
 
 ![Block Diagram](pic/team1.png)
 
 ![Block Diagram](pic/team2.png)
+
+---
+
+## 최종 결과
+
+| 렌더링 이미지 | 결과 사진 이미지 |
+| :---: | :---: |
+| ![이미지1](pic/img4.webp) | ![이미지2](pic/img3.webp) |
 
 ---
 
@@ -127,9 +135,8 @@ Frame Buffer 기반 LCD 구조 및 데이터 무결성 검증 로직을 추가�
 
 ---
 
-# 1. System Architecture
+## Diagram
 
-## Block Diagram
 ```
                           ┌────────────────────────┐
                           │        dog_top         │
@@ -150,8 +157,8 @@ Frame Buffer 기반 LCD 구조 및 데이터 무결성 검증 로직을 추가�
             └────────────┘     └───────────────┘     └───────────────┘
 ```
 ---
-
-# 2. Directory Structure
+[state diagram](pic/img1.png)
+## Directory Structure
 
 ```text
 ./
